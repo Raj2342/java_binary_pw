@@ -258,3 +258,7 @@ output:
 
  *** general kg-4 : ***
 ![alt text](image-4.png)
+
+*** general kg-5 ***
+![alt text](image-5.png)
+  meaning of public :   in this project you can call anywhere this method 
