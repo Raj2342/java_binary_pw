@@ -212,6 +212,7 @@ output:
    *** for each loop ***
    ```java
     int SumEven =0;
+    // s1 is a terminal based array
    for(int even : s1){
                   SumEven = SumEven + even;
              }
