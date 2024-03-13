@@ -18,5 +18,6 @@ class  longest_sequence {
         int a[] = { 3,9,1,10,4,20,2};
         student s = new student();
         s.sort(a);
+        System.out.println(Arrays.toString(a));
     }
 }
