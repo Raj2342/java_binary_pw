@@ -6,6 +6,7 @@
       int age ;
       
       human(){
+
         System.out.println(" this  is  constructor");
       }
 
@@ -20,7 +21,11 @@
 
  class student  extends human
  {
-      void disp(){
+       student(){
+        sout
+       }
+  
+     void disp(){
          System.out.println("this is human age"+ age);
         //  System.out.println("this name of human"+ name);// show error ::  
         // one  class canot directly access to   other class   it follow encapsulation  rule 
