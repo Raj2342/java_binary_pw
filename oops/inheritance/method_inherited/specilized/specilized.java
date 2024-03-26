@@ -28,11 +28,23 @@ class overriding {
     public static void main(String[] args) {
         
         PassengerPlane p = new PassengerPlane();
-        p.fly();
-        p.takeoff(); 
+        
 
         Caroplane  c = new Caroplane();
-        c.fly();
-        c.takeoff();
+
+        Aeroplane   ref ;
+         ref = p;
+        ref = c;
+        // ref.carrayPassenger(); // canot call from parents becoz it is child created own method 
+        // ref.carrayGoods();
+
+        ///////////////////- sol-1 : call only from child  object refrence 
+        // p.carrayPassenger(); 
+        // c.carrayGoods();
+
+        ///////   soln-2 : if want call from parents use  downcasting method
+
+      ( ( PassengerPlane) ref ).carrayPassenger();
+
     }
 }

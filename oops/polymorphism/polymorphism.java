@@ -42,7 +42,7 @@ class  polymorphism {
      1.child can be store in parent , but child cannot be stored in child
      2.  when create a object is neecessary to first part and last part would be simmilar 
       3. only parent object not necessary to write first and last part  simmilary 
-  
+    4. ref is one form but out is multiple form 
   
   */  
 
@@ -50,11 +50,9 @@ class  polymorphism {
 
     public static void main(String[] args) {
         elephent eleph = new elephent();
-                //   e.eat();
-                //   e.sleep();
+               
         tiger tig = new tiger();
-                // t.eat();
-                // t.sleep();
+                
 
         // cretae obj of parent
         animnal ref;

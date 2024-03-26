@@ -1,3 +1,7 @@
+/* ***********************************************************
+ polymorphis = method overloading and method overriding 
+ **************************************************************/
+
 class  animal {
       
     public void eat(){
