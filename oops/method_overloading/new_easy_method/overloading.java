@@ -34,6 +34,6 @@ public static double  sum(double a , double b  ){
     public static void main(String[] args) {
       calculation addition = new calculation();
       System.out.println(addition.sum(2, 3,5,7));
-      System.out.println(addition.sum(2.9, 3.6));
+      // System.out.println(addition.sum(2.9, 3.6));
     }
 }
