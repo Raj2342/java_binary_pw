@@ -5,7 +5,8 @@ public class finaly {
          System.out.println("Enter integer no.");
         Scanner sc = new Scanner(System.in);
          int store=0;
-
+ 
+    
         try{
             store = sc.nextInt();
          }
@@ -18,6 +19,8 @@ public class finaly {
              sc.close();
           System.out.println("i am finally keyword ");
          }
+
+    
 
          System.out.println("if catch not written i am not print if exeption in try code  ");
     }
