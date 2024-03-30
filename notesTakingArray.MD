@@ -263,3 +263,10 @@ output:
 *** general kg-5 ***
 ![alt text](image-5.png)
   meaning of public :   in this project you can call anywhere this method 
+
+>>  *** general kg-5 ***
+   Scanner class  wrong  way :: 
+   ![alt text](image-6.png)
+   Scanner class  wrong  way :: 
+   ![alt text](image-7.png)
+

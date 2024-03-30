@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class LaunchMulti1 
+public class need_of_multithread 
 {
     public static void main(String[] args) 
     {

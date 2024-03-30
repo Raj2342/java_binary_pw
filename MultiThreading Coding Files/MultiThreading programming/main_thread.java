@@ -1,5 +1,5 @@
 
-public class LaunchMulti2 
+public class main_thread 
 {
     public static void main(String[] args) 
     {
