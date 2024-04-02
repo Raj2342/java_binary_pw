@@ -1,4 +1,5 @@
-import java.util.InputMismatchException;// when you write  exception in catch box it is important to import library otherwise it show error
+import java.util.InputMismatchException;
+// when you write  exception in catch box it is important to import library otherwise it show error
 import java.util.Scanner;
 
 public class try_finnaly {
