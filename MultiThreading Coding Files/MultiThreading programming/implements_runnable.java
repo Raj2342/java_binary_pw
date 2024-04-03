@@ -46,7 +46,7 @@ class Message1 implements Runnable
     }
 }
 
-public class LaunchMulti5 
+public class implements_runnable 
 {
     public static void main(String[] args) {
 

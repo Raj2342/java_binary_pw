@@ -3,7 +3,7 @@
  */
 
 import java.util.Scanner;
- class  calc extends Thread
+ class  calc  implements Runnable
  {
      public void run(){
       System.out.println("Calculation Task Started");
@@ -22,7 +22,7 @@ import java.util.Scanner;
      }
  }
 
- class message  extends Thread
+ class message  implements Runnable
  {
        public void run(){
         System.out.println("Displaying important message task");
@@ -49,8 +49,11 @@ public class rough {
   public static void main(String[] args) {
        calc t1 = new calc();
        message t2 = new message();
-       t1.start();
-       t2.start();
+
+       Thread c1 = new Thread(t1);
+       Thread c2 = new Thread(t2);
+       c1.start();
+       c2.start();
 
   }
 }
