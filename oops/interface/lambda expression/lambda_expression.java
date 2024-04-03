@@ -1,7 +1,7 @@
 @FunctionalInterface
 interface animal {
    void show();
-   
+    
    
 }
 
