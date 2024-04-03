@@ -1,4 +1,10 @@
 
+/*
+ *     need_of_multithreading.java ke output ko ess file ke outpur se compare karo
+ *     ess fiel ka output wait nahi karta .  but uss fiel ka output 
+ *     time taking hai 
+ * 
+ */
 import java.util.*;
 class Demo{
 
@@ -50,7 +56,7 @@ class Message extends Thread{
 
 
 
-public class LaunchMulti4 
+public class create_Threads2 
 {
     public static void main(String[] args) 
     {
