@@ -31,6 +31,7 @@ class MyThread1 extends Thread{
         System.out.println("Calculation Task Ended");
 
         System.out.println("****************************************************");
+        sc.close();
     }
     public void importantMesg()
     {

@@ -10,7 +10,7 @@ class Demo{
 
 }
 
-class Calc extends Thread{
+class Calc extends Demo implements Runnable{
 
     public void run()
     {
@@ -30,8 +30,13 @@ class Calc extends Thread{
 
         System.out.println("****************************************************");
     }
+
+    public void start() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'start'");
+    }
 }
-class Message extends Thread{
+class Message implements Runnable {
 
     public void run()
     {
@@ -52,11 +57,16 @@ class Message extends Thread{
         System.out.println("Displaying import message task ended");
 
     }
+
+    public void start() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'start'");
+    }
 }
 
 
 
-public class create_Threads2 
+public class diff_extends_implement 
 {
     public static void main(String[] args) 
     {

@@ -42,7 +42,7 @@ public class need_of_multithread
         System.out.println("Displaying import message task ended");
 
         System.out.println("****************************************************");
-        
+         sc.close();
     }
     
 }

@@ -1,19 +1,19 @@
-import java.util.Scanner;
 
-class  Mythread  extends Thread
-{
-      public void run(){
-       String s =   Thread.currentThread().getName();
-       System.out.println(s);
-       if (s.equals("CALC")) {
-           calc();
-       }
-       else{
-          meaasage();
-       }
-      }
+/*
+ *     need_of_multithreading.java ke output ko ess file ke outpur se compare karo
+ *     ess fiel ka output wait nahi karta .  but uss fiel ka output 
+ *     time taking hai 
+ * 
+ */
+import java.util.*;
+class Demo{
 
-      public void calc(){
+}
+
+class Calc extends Thread{
+
+    public void run()
+    {
         System.out.println("Calculation Task Started");
 
         Scanner sc=new Scanner(System.in);
@@ -27,10 +27,15 @@ class  Mythread  extends Thread
 
         System.out.println(res);
         System.out.println("Calculation Task Ended");
-        sc.close();
-      }
 
-      public void meaasage(){
+        System.out.println("****************************************************");
+        sc.close();
+    }
+}
+class Message extends Thread{
+
+    public void run()
+    {
         System.out.println("Displaying important message task");
         try{
             for(int i=0;i<3;i++)
@@ -47,22 +52,26 @@ class  Mythread  extends Thread
 
         System.out.println("Displaying import message task ended");
 
-      }
+    }
 }
 
 
-public class rough {
-  public static void main(String[] args) {
-    // Mythread t = new Mythread(); //it is  equivalent to Thread 
-    Thread t1 = new Thread();
 
-    Thread t2 = new Thread();
-  
-      // give name of thread 
-    t1.setName("CALC");
-    t2.setName("meaasage");
+public class create_Th_extend2 
+{
+    public static void main(String[] args) 
+    {
+        
+        System.out.println("Main Thread started");
 
+        Calc t1=new Calc();
 
+        Message t2=new Message();
 
-  }
+        t1.start();
+        t2.start();
+        
+        
+    }
+    
 }

@@ -1,6 +1,11 @@
 
+
+
 import java.util.*;
 
+import java.util.stream.Collectors.*;
+
+@SuppressWarnings("unused")
 class Calc1 implements Runnable{
 
     public void run()
@@ -20,6 +25,7 @@ class Calc1 implements Runnable{
         System.out.println("Calculation Task Ended");
 
         System.out.println("****************************************************");
+        sc.close();
     }
 }
 class Message1 implements Runnable
@@ -56,10 +62,11 @@ public class implements_runnable
         Calc1 c1=new Calc1();
 
         Message1 m2=new Message1();
-
+        // create a object of thread it is inbuilt 
         Thread t1=new Thread(c1);
 
         Thread t2=new Thread(m2);
+
 
 
         t1.start();

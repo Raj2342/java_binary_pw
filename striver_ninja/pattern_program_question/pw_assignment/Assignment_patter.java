@@ -190,24 +190,40 @@ public class  Assignment_patter {
   // }
    
   //  Q-7: G
-  int n=5;
-  for(int i=0;i<n;i++)
-  {
-    for(int j=0; j<n;j++)
-    {
-      if(j==0 || i==(n-1)  ) {
+  // int n=5;
+  // for(int i=0;i<n;i++)
+  // {
+  //   for(int j=0; j<n;j++)
+  //   {
+  //     if(j==0 || i==(n-1)  && j<(n-1)/2 || j==(n-1)/2 && i>=(n-1)/2 || j==(n-1) && i>=(n-1)/2  || i==(n-1)/2 && j>(n-1)/2) {
        
-         System.out.print("* ");
-      }
-      else{
-       System.out.print("  ");
-      }
-    }
+  //        System.out.print("* ");
+  //     }
+  //     else{
+  //      System.out.print("  ");
+  //     }
+  //   }
   
-    System.out.println();
-  }
+  //   System.out.println();
+  // }
    
+   // Q-8 : H
+   int n=5;
+   for(int i=0;i<n;i++)
+   {
+     for(int j=0; j<n;j++)
+     {
+       if(j==0 || j==(n-1) || i==(n-1)/2) {
+        
+          System.out.print("* ");
+       }
+       else{
+        System.out.print("  ");
+       }
+     }
    
+     System.out.println();
+   }
    
    
    

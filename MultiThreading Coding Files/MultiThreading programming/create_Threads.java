@@ -17,6 +17,7 @@ class mythread extends Thread
 
         System.out.println(res);
         System.out.println("Calculation Task Ended");
+        sc.close();
    }
 }
 

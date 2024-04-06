@@ -270,3 +270,9 @@ output:
    Scanner class  wrong  way :: 
    ![alt text](image-7.png)
 
+>> kg-6
+ for removing warning   use 
+  ```java
+  @SuppressWarnings("unused")
+  ```
+
