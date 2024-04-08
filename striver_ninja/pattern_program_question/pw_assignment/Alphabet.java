@@ -1,4 +1,12 @@
-public class  Assignment_patter {
+/*
+   ALPHABET PATTERN QUESTION  -- USE AND(&&) , OR(||) CONCEPT
+
+ */
+
+
+
+
+public class  Alphabet {
     public static void main(String[] args) {
       
       //  concept-1
