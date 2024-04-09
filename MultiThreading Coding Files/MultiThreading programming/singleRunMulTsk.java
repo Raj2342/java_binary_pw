@@ -53,7 +53,7 @@ class animal  extends Thread
   }
  
  
- public class rough {
+ public class singleRunMulTsk {
      public static void main(String[] args) {
           animal an1 = new animal();
           animal an2 = new animal();
