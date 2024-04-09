@@ -20,7 +20,7 @@ class Example implements Runnable{
     }
 }
 
-public class LaunchMulti12 
+public class interrupt 
 {
     public static void main(String[] args) 
     {

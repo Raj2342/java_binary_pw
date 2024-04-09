@@ -17,7 +17,7 @@ class animal implements  Runnable
 
 
 
-public class rough {
+public class join_IsAlive {
   public static void main(String[] args) 
   {
      System.out.println(" start main  thread ");
