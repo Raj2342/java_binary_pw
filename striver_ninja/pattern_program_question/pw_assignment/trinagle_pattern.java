@@ -202,24 +202,65 @@ public class trinagle_pattern {
 // ***    ***
 // ****  ****
 // **********
-int n=5;
-for(int i=1; i<=n; i++)
-{
-  for(int j=1; j<=2*n ;j++)
-  {
-      if (j<=i || j>=(2*n+1)-i  ) {
-          System.out.print("*");
+// int n=5;
+// for(int i=1; i<=n; i++)
+// {
+//   for(int j=1; j<=2*n ;j++)
+//   { 
+//       if (j<=i || j>=(2*n+1)-i  ) {
+//           System.out.print("*");
            
-      }
-      else{
-          System.out.print(" ");
-      }
-  }
+//       }
+//       else{
+//           System.out.print(" ");
+//       }
+//   }
   
   
-  System.out.println();
-}
+//   System.out.println();
+// }
 
+//   CONCEPT-14 
+// 1    
+// 12
+// 123
+// 1234
+// 12345
+//    int n =5;
+//    for(int i=1; i<=n;i++)
+//    {
+//       for(int j=1; j<=n;j++)
+//      {
+//         if (j<=i) {
+//             System.out.print(j);
+//         }
+//         else{
+//             System.out.print(" ");
+//         }
+//       }
+//       System.out.println();
+//    }
+
+    //   concept-15
+    // 12345
+    // 1234
+    // 123
+    // 12
+    // 1
+    int n =5;
+    for(int i=1; i<=n;i++)
+    {
+       for(int j=1; j<=n;j++)
+      {
+         if (j<=(n+1)-i) {
+             System.out.print(j);
+         }
+         else{
+             System.out.print(" ");
+         }
+       }
+       System.out.println();
+    }
 
 
         
