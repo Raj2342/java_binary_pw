@@ -1,27 +1,33 @@
+import java.util.Arrays;
+ 
+   
+ 
 public class rough {
-        
-       public static void main(String[] args) {
+    public static void play( int a[] )
+    {
+        int temp;
+        for(int i=0; i<a.length-1;i++)
+        {
+           for(int j=0;j<a.length-1-i;j++)
+           {
+               if (a[j]>a[j+1]) {
+                   temp = a[j+1];
+                   a[j+1]= a[j];
+                   a[j]=temp;
+               }
            
-           int arr[] = {0, 5, 6, 0, 0, 2, 5};
-            int len=0;
-           for(int i=0; i<arr.length; i++){
-            if (arr[i] != 0) {
-                 len++; 
-                
-            }
            }
+        }
         
+    }
+    public static void main(String[] args) {
+        int n=5;
+         int a[] = {7,8,3,1,2};
+        
+        play(a);
+        System.out.println(Arrays.toString(a));
 
-            int newarr[] = new   int[len];
-            for(int i=0, j=0; i<arr.length;i++){
-                if (arr[i] != 0) {
-                    newarr[j] = arr[i];
-                    j++;
-                }
-            }
-            
-            for(int k=0; k<newarr.length; k++){
-                System.out.print(newarr[k] + " ");
-            }
-       }
+
+         
+    }
 }
