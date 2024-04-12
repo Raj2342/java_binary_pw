@@ -1,15 +1,22 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class rough {
       
     public static void main(String[] args) {
-         int a[] = {1,2,2,3,4,4,5};
-         for(int i=0;i<a.length-1;i++)
+         int a[] = {15,3,7,9,2,10};
+         int b[] = {5,1,15,8,3,10};
+         int c[] = { 2,4,5,15,4,10};
+          
+         for(int a1 : c)
          {
-            if (a[i]==a[i+1]) {
-                System.out.println(a[i]);
-            }
+          System.out.println(a1);
          }
+
+         
+      
+        
+        
            
 
     }

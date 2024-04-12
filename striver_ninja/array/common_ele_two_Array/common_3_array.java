@@ -3,9 +3,9 @@ import java.util.ArrayList;
 public class common_3_array {
       public static void main(String[] args) {
         
-          int a[] = { 2,3,4,5};
-          int b[] = { 3,2,4,8};
-          int c[] = { 8,2,4,7};
+          int a[] = { 2,3,10,5};
+          int b[] = { 1,2,10,8};
+          int c[] = { 8,2,10,7};
      ArrayList<Integer> arr = new ArrayList<>();
      // compare btw array a and  b
           for(int i=0; i<a.length-1;i++){
