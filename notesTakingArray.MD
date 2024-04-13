@@ -275,4 +275,15 @@ output:
   ```java
   @SuppressWarnings("unused")
   ```
-
+# String concept 
+ > char convert into  string 
+ ```java
+ String s = "MADAM";
+         String reverse = " ";
+         for(int i=s.length()-1;i>=0;i--)
+         {
+            // char convert into  string 
+             reverse  =   reverse + s.charAt(i);
+         }
+        System.out.println(reverse); 
+  ```
