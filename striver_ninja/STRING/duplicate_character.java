@@ -11,5 +11,5 @@ public class duplicate_character {
             }
            }
         //    System.out.println(a);
-     }
+     }  
 }
