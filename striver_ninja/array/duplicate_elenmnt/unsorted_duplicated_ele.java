@@ -1,13 +1,13 @@
-//  print repeated value   
+//   unsorted duplicate element  find -- it is imp to use bubble sort  
 
-class  duplicate_ele {
+class  unsorted_duplicated_ele {
     
     
     public  static void   crack(int arr[]  ){
        
         for(int i=0; i<arr.length;i++){
          for(int j=0; j<arr.length-i-1 ; j++){
-            
+            // bubble sort  concept for unsorted array 
               if(arr[j]> arr[j+1]){
                  int temp = arr[j+1];
                   arr[j+1] = arr[j];

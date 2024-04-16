@@ -1,7 +1,7 @@
-//   unsorted duplicate element  find -- it is imp to use bubble sort  
+// it will not print repeated value 
 
-public class duplicate_ele2 {
-      // bubble sort  concept for unsorted array
+public class unsorted_duplicated_ele2 {
+      
     public  static void   bubleSort(int arr[]  ){
        
         for(int i=0; i<arr.length;i++){

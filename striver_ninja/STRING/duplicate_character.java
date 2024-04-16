@@ -1,15 +1,42 @@
-import java.util.ArrayList;
+//  print repeated value   
 
-public class duplicate_character {
-     public static void main(String[] args) {
-           String s = "MADAM";
+class  duplicate_ele {
+    
+    
+    public  static void   crack(int arr[]  ){
+       
+        for(int i=0; i<arr.length;i++){
+         for(int j=0; j<arr.length-i-1 ; j++){
+            
+              if(arr[j]> arr[j+1]){
+                 int temp = arr[j+1];
+                  arr[j+1] = arr[j];
+                  arr[j]= temp;
+              }
 
-           for(int i=0;i<s.length()-1;i++)
-           {
-            if (s.charAt(i) == s.charAt(i+1)) {
-                System.out.println("otuput"+s.charAt(i));
-            }
-           }
-        //    System.out.println(a);
-     }  
+               if (arr[j] == arr[j+1]) {
+                 System.out.println(arr[j]);
+                 
+              }
+                
+         }
+        
+        }
+
+//    return arr[j];
+
+
+}
+
+    
+    
+    
+    public static void main(String[] args) {
+        int arr[] = { 8,6,7,8,4,6,9};
+        crack(arr);
+        // System.out.println(crack(arr));
+
+
+           
+    }
 }
