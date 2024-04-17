@@ -287,3 +287,13 @@ output:
          }
         System.out.println(reverse); 
   ```
+  ### create array for character/string 
+   HashSet<Character> seeout = new HashSet<>();
+  ###  create array for string 
+  ArrayList<Integer>  seeout = new ArrayList<>();
+  
+# imp fact about array 
+1. System.out.println(arr[]); -wrong
+2. System.out.println(arr[i]);-print index
+3.  System.out.println(arr);- print array  ( string case)
+4. System.out.println(arr);- print garbage value [I@372f7a8d  ( int case)
