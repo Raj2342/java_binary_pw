@@ -69,7 +69,7 @@ class Library implements Runnable
     }
 }
 
-public class LaunchMulti11 
+public class deadLock 
 {
     public static void main(String[] args) 
     {
