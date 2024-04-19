@@ -297,3 +297,9 @@ output:
 2. System.out.println(arr[i]);-print index
 3.  System.out.println(arr);- print array  ( string case)
 4. System.out.println(arr);- print garbage value [I@372f7a8d  ( int case)
+
+# collection framework notes 
+> 1. universal library add any library in your code just type 
+   ```java
+   import  java.util.*;
+   ```
