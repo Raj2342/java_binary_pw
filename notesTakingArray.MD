@@ -291,6 +291,13 @@ output:
    HashSet<Character> seeout = new HashSet<>();
   ###  create array for string 
   ArrayList<Integer>  seeout = new ArrayList<>();
+
+  ### How to compare two charcater array 
+  Arrays.equals(s1arr, s2arr);
+
+  ## How to convert string into char Array 
+   String s1 = "listen";
+   char s1arr[] =  s1.toCharArray();
   
 # imp fact about array 
 1. System.out.println(arr[]); -wrong

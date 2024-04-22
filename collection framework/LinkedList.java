@@ -18,5 +18,7 @@ public class LinkedList {
         // System.out.println(ll2.poll());
         // System.out.println(ll2);
 
+        
+
     }
 }
