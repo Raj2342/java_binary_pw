@@ -14,6 +14,6 @@ public class Stream_API {
                }
           }
           System.out.println(result);
-           Stream
+           
      }
 }
