@@ -20,7 +20,7 @@ public class for_each {
 
      // in built method of forEach()
     //  list2.forEach(null);
-      
+       
     //    Consumer<Integer> con = (i)->  System.out.println(i);
                 
 
