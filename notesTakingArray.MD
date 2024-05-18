@@ -310,3 +310,13 @@ output:
    ```java
    import  java.util.*;
    ```
+> 2. direct sort array 
+
+![alt text](image-8.png)
+
+> 3. print first element 
+
+ store.get(0)
+ > 4. print last element
+  
+ store.get(store.size()-1)
