@@ -7,7 +7,7 @@ public class Array_reverse {
     public static void main(String[] args) {
         // original array
 
-        int[] arr = { 1, 2,3,4,5,4,3,2,1}; 
+        int[] arr = { 1, 2,3,4,5,4,3,2,1,9}; 
         System.out.println("original array:"+Arrays.toString(arr));
         
         // reverse array
@@ -20,11 +20,16 @@ public class Array_reverse {
         // check if the array is a palindrome
          boolean isPaLINDROME = true;
          for(int i=0; i<arr.length;i++){
-            
+             if (arr[i] != reversed[i]) {
+                isPaLINDROME = false;
+             }
          }
 
          if (isPaLINDROME) {
-            
+             System.out.println("array is palindrome");
+         }
+         else {
+            System.out.println(" array is not palindrome");
          }
       
 
