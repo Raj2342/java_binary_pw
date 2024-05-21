@@ -1,13 +1,18 @@
+/*
+ *  approach-1
+ * TC = O(N) , SC = O(N)
+ */
+
 import java.util.Arrays;
 
 import javax.print.DocFlavor.READER;
 
 import java.util.*;
-public class Array_reverse {
+public class Array_PALINDROME {
     public static void main(String[] args) {
         // original array
 
-        int[] arr = { 1, 2,3,4,5,4,3,2,1,9}; 
+        int[] arr = { 1, 2,3,2,1}; 
         System.out.println("original array:"+Arrays.toString(arr));
         
         // reverse array
@@ -22,6 +27,7 @@ public class Array_reverse {
          for(int i=0; i<arr.length;i++){
              if (arr[i] != reversed[i]) {
                 isPaLINDROME = false;
+                break;
              }
          }
 
