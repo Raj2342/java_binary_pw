@@ -1,3 +1,8 @@
+/*
+ *  tc = O(N)
+ *  SC = O(1)
+ */
+
 import java.util.*;
 import java.io.*;
 public class linear_search {
