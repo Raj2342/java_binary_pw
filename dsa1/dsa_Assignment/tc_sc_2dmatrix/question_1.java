@@ -18,6 +18,10 @@ number of even numbers = 9
 number of 0 = 3
 
 */
+/*
+ tc-O(n*m)
+ sc-O(1)
+ */
 import java.util.*;
 import java.io.*;
 public class  question_1 {

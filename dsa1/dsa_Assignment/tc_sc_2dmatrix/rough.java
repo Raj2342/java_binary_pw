@@ -1,47 +1,49 @@
 public class rough {
     public static void main(String[] args) {
           int arr[][] = {
-            {1, 2, -3, 4},
-            { 0, 0, -4 ,2},
-             {1, -1 ,2, 3},
-            {-4 ,-5 ,-7 ,0}
+              {1,2,3},
+              {4,5,6},
+              {7,8,9}
           };
-          int m = arr.length;
-          int n= arr[0].length;
-
-          int PositiveCount =0;
-          int NegativeCount =0;
-          int ZeroCount =0;
-          int EvenCount =0;
-          int OddCount =0;
-          for(int i=0; i<m;i++)
-          {
-            for(int j=0;j<n;j++)
-            {
-                if(arr[i][j]%2==0){
-                    EvenCount++;
-                }
-                else if(arr[i][j]%2!=0){
-                    OddCount++;
-                }
-                
-               else if (arr[i][j]>0) {
-                    PositiveCount++;
-                }
-                else if(arr[i][j]==0)
-                {
-                    ZeroCount++;
-                }
-                else if(arr[i][j]<0){
-                    NegativeCount++;
+        int m = arr.length-1;
+        
+        int n = arr[0].length-1;
+        // print below elment of diagonal 
+        for(int i=0;i<=m;i++)
+        {
+            for(int j=0;j<=n;j++)
+            { 
+                if (i<j) {
+                    System.out.println(arr[i][j]);
                 }
             }
-          }
-         
-          System.out.println("number of even number "+ EvenCount);
-           System.out.println("number of odd number "+ OddCount);
-           System.out.println("number of positive number "+ PositiveCount);
-           System.out.println("number of negative number "+ NegativeCount);
-           System.out.println("number of zero number "+ ZeroCount);
+        }
+        // print  anti-diagonal 
+        // for(int i=0;i<=m;i++)
+        // {
+        //     System.out.println(arr[i][m-i]);
+        // }
+
+        // diagonal 
+        // for(int i=0;i<=m;i++)
+        // {
+        //     System.out.println(arr[i][i]);
+        // }
+
+         // print row and colomun 
+        // for(int j=0;j<=n;j++)
+        // {
+        //   System.out.print(" "+arr[2][j]);
+        //   // System.out.print("  "+arr[1][j]);
+        // }
+        
+        // print 2d matrix
+        // for(int i=0;i<m;i++)
+        // {
+        //   for(int j=0;j<n;j++)
+        //   {
+        //      System.out.println(arr[i][j]);
+        //   }
+        // }
     }
 }

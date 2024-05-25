@@ -15,8 +15,8 @@ public class question_2 {
         {
             for(int j=0;j<n;j++)
             {
-                if(3-i<=j){
-                 System.out.println(arr[i][j]);
+                if(i+j<m-1){
+                 System.out.print(" "+arr[i][j]);
                 }
             }
         }
