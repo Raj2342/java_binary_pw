@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class even_index {
 
-    public static void even_index(int arr[] , int m){
+    public static void even_index_print(int arr[] , int m){
              int sum =0;
           for(int i=0;i<=m-1;i++)
           {
@@ -24,7 +24,7 @@ public class even_index {
             arr[i]= sc.nextInt();
           }
 
-          even_index(arr, m);
+          even_index_print(arr, m);
 
 
        
