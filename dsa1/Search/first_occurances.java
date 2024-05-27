@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-public class rough {
+public class first_occurances {
 
      public static int first_occurance_print(int arr[] , int target)
      {      
