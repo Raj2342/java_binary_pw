@@ -14,11 +14,11 @@ public class selection_sort {
                 }
             }
 
-        if (min != i) {
+          if (min != i) {
             int temp = arr[min];
             arr[min]=arr[i];
             arr[i]=temp;
-        }
+          }
         }
     }
       public static void main(String[] args) {
