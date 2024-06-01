@@ -6,7 +6,8 @@ public class question_3 {
                  
          for(int i=1;i<=arr.length-1;i++)
          {
-            for(int j=i;j<=arr.length-1;j++)
+            // int i=1;
+            for(int j=1;j<=arr.length-1;j++)
             {
                 while ( j>0 && arr[j-1]<arr[j]) {
                     int temp = arr[j-1];

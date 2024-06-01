@@ -12,11 +12,11 @@ public class question_2 {
             for(int i=0;i<arr.length-1;i++)
             {
                  int min = i;
-                for(int j=i+1;j<arr.length;j++)
+                for(int j=i+1;j<=arr.length-1;j++)
                 {
                 if (arr[j]>arr[min]) {
                     min= j;
-                }
+                } 
                 }
 
                 if (min!=i) {
@@ -30,7 +30,7 @@ public class question_2 {
       public static void main(String[] args) {
             int arr[]= {3,5,1,6,0};
             selection_sort(arr);
-            System.out.println(Arrays.toString(arr));
+            System.out.println(Arrays.toString(arr));  
 
       }
 }
