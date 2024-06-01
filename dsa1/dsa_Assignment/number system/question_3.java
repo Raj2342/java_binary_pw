@@ -9,7 +9,7 @@ public class question_3 {
             
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter the number");
-            int  number = sc.nextInt();
+            int  number = sc.nextInt(); 
 
            if ((number & 1) ==1 ) {
                 System.out.println("odd");
