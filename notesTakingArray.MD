@@ -320,3 +320,14 @@ output:
  > 4. print last element
   
  store.get(store.size()-1)
+
+ # java tips
+ 1. it print seperate even and odd number 
+ ````java
+ for (int i = num; i >= 0; i--) {
+            if (i % 2 == (num % 2)) { 
+              System.out.println(i);
+            }
+          }
+
+ ````
