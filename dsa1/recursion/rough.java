@@ -2,26 +2,24 @@ import java.util.Scanner;
 
 public class rough {
 
-    public static int addition(int n)
+    public static void recursion_Array(int arr[] , int i, int n)
     {
-          if (n<=1) {
-            return 1;
-          }
-          else if(n%2==0){
-            return addition(n-1)-n ;
-          }
+          if (i==n) return ;
+
           else{
-            return addition(n-1)+n;
+            System.out.println(arr[0]+" ");
+            recursion_Array(arr, i+1, n);
           }
+          
     }
     public static void main(String[] args) {
          
+           int i =0;
+        
+          int arr[]={3,7,2,6,8};
+          int n=arr.length;
+         
       
-          Scanner sc = new Scanner(System.in);
-         System.out.println("Enter the number");
-         int n = sc.nextInt();
-       int result =  addition(n);
-       System.out.println(result);
 
     }
 }
