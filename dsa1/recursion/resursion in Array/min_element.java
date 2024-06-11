@@ -1,4 +1,4 @@
-public class max_element{
+public class min_element{
 
     public static int max_ele(int arr[],int i)
     {  
@@ -7,7 +7,7 @@ public class max_element{
         }
           
         else{
-            return Math.max(arr[i],max_ele(arr, i+1));
+            return Math.min(arr[i],max_ele(arr, i+1));
         }
       
     }
