@@ -1,4 +1,5 @@
 import java.util.*;
+import java.lang.*;
 public class optimize_soln {
 
     public static int power(int a,int b)
