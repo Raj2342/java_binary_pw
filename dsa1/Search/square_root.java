@@ -18,11 +18,11 @@ public class square_root {
                 // target ka  hamesa double value  hota hai 
  // store the floor value, incase the number is not perfect square root, we can print the floor value
 
-                result=mid;
+                
                 hi=mid-1;
               } 
               else if (val<target) {
-                
+                result=mid;
                 li=mid+1;
               } 
              }
